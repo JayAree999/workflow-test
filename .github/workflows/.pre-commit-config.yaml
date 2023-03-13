@@ -1,0 +1,6 @@
+repos:
+- repo: https://github.com/actions/starter-workflows
+  rev: main
+  hooks:
+    - id: node-pre-commit
+      args: [--files, pre-commit-inputs]
